@@ -15,7 +15,7 @@
 - ```fastqc *trimmed```
 - ```multiqc oilMP_S4_L001_R1_001_sample.fastq.int_trimmed_fastqc.zip oilMP_S4_L001_R2_001_sample.fastq.int_trimmed_fastqc.zip oil_R1_sample.fastq.trimmed_fastqc.zip oil_R2_sample.fastq.trimmed_fastqc.zip```
 
-- ```mkdir after_cutadapt; mv multiqc_data after_cutadapt/; mv *.zip``` after_cutadapt/; mv *.html after_cutadapt/```
+- ```mkdir after_cutadapt; mv multiqc_data after_cutadapt/; mv *.zip after_cutadapt/; mv *.html after_cutadapt/```
 
 - Авторы не рекомендуют использовать mate-pair риды наряду с pair-end ридами из-за присутствия химерных (искуственно соединённых) ридов в mate-pair последовательностях.
 - ```./platanus assemble -o bacteria -f *.fastq.trimmed -t 8 -m 11```
