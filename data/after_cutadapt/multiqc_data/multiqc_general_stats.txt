@@ -1,0 +1,5 @@
+Sample	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+oilMP_S4_L001_R1_001_sample	2.4179404454500997	46.0	110.7898053012994	9.090909090909092	856092.0
+oilMP_S4_L001_R2_001_sample	2.061146811044125	45.0	104.95979404082739	0.0	856092.0
+oil_R1_sample	30.336376523312197	46.0	97.39079756474932	0.0	4813139.0
+oil_R2_sample	29.326186207727318	46.0	95.96314671153274	0.0	4813139.0
