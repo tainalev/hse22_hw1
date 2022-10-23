@@ -7,7 +7,7 @@
 - ```seqtk sample -s 615 oilMP_S4_L001_R2_001.fastq 1500000 > oilMP_S4_L001_R2_001_sample.fastq```
 - ```fastqc *_sample.fastq```
 - ```multiqc .```
-- ```./platanus_trim oil_R1_sample.fastq oil_R2_sample.fastq
+- ```./platanus_trim oil_R1_sample.fastq oil_R2_sample.fastq```
 - ```./platanus_internal_trim oilMP_S4_L001_R1_001_sample.fastq oilMP_S4_L001_R2_001_sample.fastq```
 
 - ```mkdir before_cutadapt; mv multiqc_data_1 before_cutadapt/; mv multiqc_report_1.html before_cutadapt/; mv *.zip before_cutadapt/; mv *.html before_cutadapt/```
